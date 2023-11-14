@@ -2,57 +2,53 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Deep Learning Project Kidney Disease Classification
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+El proyecto tiene como objetivo principal construir un modelo CNN que clasificara si un paciente tiene un tumor en el riñon o no basandose en una resonancia magnetica. Para lograr esto, se utilizaran conjuntos de datos de imagenes de resonancias magneticas adecuadas para entrenar, validar y probar un modelo CNN que pueda clasificar las imagenes de los pacientes. Se utilizara la arquitectura y pesos del modelo VGG-16 para entrenar el modelo para este problema binario.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- Se dispone de un conjunto de datos de imagenes de resonancias magneticas de paciente, donde se tienen dos folder segun la clasificación si tiene tumor la imagen o no.
+- Se espera clasificar si un paciente tiene un tumor en el riñon o no basandose en una resonancia magnetica,para esto se utilizara un modelo CNN, en este caso el modelo pre-entrenado  VGG-16 para aplicar la técnica de transfer learning.
+- Criterios de éxito del proyecto:
+Tener un conjunto de datos de entrenamiento adecuado para lograr buen desempeño del modelo en clasificación de imagenes de resonancia magnetica de los paciente evidenciado por el resultado de evaluación de metricas del modelo.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- El proyecto exluye la ejecución de varias iteraciones para refinamiento del modelo, unicamente debido al corto tiempo se realizara una unica iteración segun la metodología CRISP-DM desde entendimiento del negocio hasta el despliegue.
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Para la ejecución de este proyecto se utilizara la metodología CRISP-DM (Cross-Insdustry Standard Process for Data Mining) desde la etapa de entendimiento del negocio hasta la etapa de despliegue pasando por cada etapa.
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 1 semana | Del 6 de Noviembre al 12 de Noviembre |
+| Preprocesamiento, análisis exploratorio | 1 semana | Del 13 de Noviembre al 19 de Noviembre |
+| Modelamiento y extracción de características | 1 semana | Del 20 de Noviembre al 26 de Noviembre |
+| Despliegue | 1 semana | Del 27 de Noviembre al 3 de Diciembre |
+| Evaluación y entrega final | 1 semana | Del 4 de Diciembre al 8 de Diciembre |
 
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+Hay que tener en cuenta que el tiempo de ejecución del proyecto es corto, con lo cual estas fechas son tentativas, de acuerdo a cada etapa del proyecto pueden cumplirse al 100%.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Líder del proyecto: Katherine Rodriguez Sánchez
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+No aplica, es un proyecto 100% academico.
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+- No aplica.
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+- No aplica.
