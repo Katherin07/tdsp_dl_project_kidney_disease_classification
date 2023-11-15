@@ -1,10 +1,10 @@
-# Team Data Science Project Template
+# Team Data Science Project Deep Learning Project Kidney Disease Classification
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+El proyecto tiene como objetivo principal construir un modelo CNN que clasificara si un paciente tiene un tumor en el riñon o no basandose en una resonancia magnetica. Para lograr esto, se utilizaran conjuntos de datos de imagenes de resonancias magneticas adecuadas para entrenar, validar y probar un modelo CNN que pueda clasificar las imagenes de los pacientes. Se utilizara la arquitectura y pesos del modelo VGG-16 para entrenar el modelo para este problema binario.
 
-Esta plantilla proporciona las siguientes carpetas y archivos:
+Este proyecto esta estructurado acorde a las siguientes carpetas y archivos:
 
-* `src`: acá debe ir el código o implementación del proyecto en Python.
-* `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
-* `scripts`: esta carpeta debe contener los scripts/notebooks que se ejecutarán.
-* `pyproject.toml`: archivo de definición del proyecto en Python.
+* `src`: Acá esta el código o implementación del proyecto en Python.
+* `docs`: En esta carpeta se encuentran las plantillas de los documentos definidos en la metodología TDSP.
+* `scripts`: Acá estan  los scripts/notebooks que se ejecutarán en el proyecto.
+* `pyproject.toml`: Acá esta el archivo de definición del proyecto en Python.

@@ -12,10 +12,10 @@ El proyecto tiene como objetivo principal construir un modelo CNN que clasificar
 
 ### Incluye:
 
-- Se dispone de un conjunto de datos de imagenes de resonancias magneticas de paciente, donde se tienen dos folder segun la clasificación si tiene tumor la imagen o no.
-- Se espera clasificar si un paciente tiene un tumor en el riñon o no basandose en una resonancia magnetica,para esto se utilizara un modelo CNN, en este caso el modelo pre-entrenado  VGG-16 para aplicar la técnica de transfer learning.
+- Se dispone de un conjunto de datos de imagenes de resonancias magneticas de pacientes, donde se tienen dos folder segun la clasificación si tiene tumor la imagen o no.
+- Se espera clasificar si un paciente tiene un tumor en el riñon o no basandose en una resonancia magnetica, para esto se utilizara un modelo CNN, en este caso el modelo pre-entrenado VGG-16 para aplicar la técnica de Transfer Learning.
 - Criterios de éxito del proyecto:
-Tener un conjunto de datos de entrenamiento adecuado para lograr buen desempeño del modelo en clasificación de imagenes de resonancia magnetica de los paciente evidenciado por el resultado de evaluación de metricas del modelo.
+Tener un conjunto de datos de entrenamiento adecuado para lograr buen desempeño del modelo en clasificación de imagenes de resonancia magnetica de los pacientes evidenciado por el resultado de evaluación de metricas del modelo.
 
 ### Excluye:
 
@@ -23,7 +23,7 @@ Tener un conjunto de datos de entrenamiento adecuado para lograr buen desempeño
 
 ## Metodología
 
-Para la ejecución de este proyecto se utilizara la metodología CRISP-DM (Cross-Insdustry Standard Process for Data Mining) desde la etapa de entendimiento del negocio hasta la etapa de despliegue pasando por cada etapa.
+Para la ejecución de este proyecto se utilizara la metodología CRISP-DM (Cross-Insdustry Standard Process for Data Mining) desde la etapa de entendimiento del negocio hasta la etapa de despliegue pasando por cada etapa. Adicional se complementara la la metodología TDSP (Team Data Science Project) para tener una comprensión del uso de la misma en las empresas.
 
 ## Cronograma
 
