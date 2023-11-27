@@ -1,3 +1,4 @@
+#Logs of the project
 import os
 import sys
 import logging
