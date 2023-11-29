@@ -75,3 +75,53 @@ x==========x]
 [2023-11-28 21:06:22,706: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2023-11-28 23:17:10,117: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 23:17:10,212: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 23:17:10,251: INFO: common: created directory at: artifacts]
+[2023-11-28 23:17:38,498: INFO: common: json file saved at: scores.json]
+[2023-11-28 23:17:48,600: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-28 23:17:51,531: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmp12l_y7wn\model\data\model\assets]
+[2023-11-28 23:50:21,239: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-28 23:50:21,270: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 23:50:21,286: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 23:50:21,286: INFO: common: created directory at: artifacts]
+[2023-11-28 23:50:21,286: INFO: common: created directory at: models]
+[2023-11-28 23:50:21,286: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-28 23:50:21,286: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 23:50:57,083: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 23:51:00,489: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-28 23:51:00,505: INFO: main: *******************]
+[2023-11-28 23:51:00,505: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-28 23:51:00,505: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 23:51:00,505: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 23:51:00,505: INFO: common: created directory at: artifacts]
+[2023-11-28 23:51:00,505: INFO: common: created directory at: models]
+[2023-11-28 23:51:00,505: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-28 23:51:02,401: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-28 23:51:02,698: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-28 23:51:08,485: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-11-28 23:51:08,485: INFO: main: *******************]
+[2023-11-28 23:51:08,485: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-11-28 23:51:08,501: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 23:51:08,501: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 23:51:08,516: INFO: common: created directory at: artifacts]
+[2023-11-28 23:51:08,516: INFO: common: created directory at: models]
+[2023-11-28 23:51:08,516: INFO: common: created directory at: artifacts\training]
+[2023-11-28 23:52:09,306: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-11-28 23:52:09,306: INFO: main: *******************]
+[2023-11-28 23:52:09,306: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-11-28 23:52:09,322: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 23:52:09,322: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 23:52:09,322: INFO: common: created directory at: artifacts]
+[2023-11-28 23:52:09,322: INFO: common: created directory at: models]
+[2023-11-28 23:52:26,245: INFO: common: json file saved at: scores.json]
+[2023-11-28 23:52:26,245: INFO: common: json file saved at: scores.json]
+[2023-11-28 23:52:26,245: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

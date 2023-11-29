@@ -48,3 +48,42 @@ conda activate cnncls
 ```bash
 pip install -r requirements.txt
 ```
+
+## MLflow
+
+A continuación documentación a cerca de MLFlow herramienta utilizada para la experimentación y seguimiento de modelos utilizada en el proyecto:
+
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+El siguiente tutorial es del autor del proyecto base en el cual se basa este proyecto:
+
+- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
+
+##### cmd
+- mlflow ui
+
+### Dagshub
+
+A continuación documentación a cerca de Dagshub plataforma de colaboración utilizada para el versionado de datos, código y modelos de ML basada en Git:
+
+- [dagshub](https://dagshub.com/)
+
+Configuración para el seguimiento de MLFlow desde Dagshub:
+
+MLFLOW_TRACKING_URI=https://dagshub.com/Katherin07/tdsp_dl_project_kidney_disease_classification.mlflow \
+MLFLOW_TRACKING_USERNAME=Katherin07 \
+MLFLOW_TRACKING_PASSWORD=0bc7932c59f69bd8822c408a763da2f45998890c \
+python script.py
+
+Ejecutar los siguientes comandos para exportar los datos de configuración como variables de entorno:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/Katherin07/tdsp_dl_project_kidney_disease_classification.mlflow
+
+export MLFLOW_TRACKING_USERNAME=Katherin07 
+
+export MLFLOW_TRACKING_PASSWORD=0bc7932c59f69bd8822c408a763da2f45998890c
+
+```
