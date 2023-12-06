@@ -125,3 +125,720 @@ x==========x]
 [2023-11-28 23:52:26,245: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-02 23:24:25,548: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-02 23:24:25,676: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:24:25,707: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:24:25,735: INFO: common: created directory at: artifacts]
+[2023-12-02 23:24:25,735: INFO: common: created directory at: models]
+[2023-12-02 23:24:25,738: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-02 23:24:25,738: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:25:53,062: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:25:55,883: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:25:55,887: INFO: main: *******************]
+[2023-12-02 23:25:55,887: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-02 23:25:55,890: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:25:55,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:25:55,904: INFO: common: created directory at: artifacts]
+[2023-12-02 23:25:55,904: INFO: common: created directory at: models]
+[2023-12-02 23:25:55,904: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-02 23:26:01,113: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:26:02,837: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:26:07,090: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-02 23:26:07,090: INFO: main: *******************]
+[2023-12-02 23:26:07,090: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-02 23:26:07,105: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:26:07,105: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:26:07,105: INFO: common: created directory at: artifacts]
+[2023-12-02 23:26:07,105: INFO: common: created directory at: models]
+[2023-12-02 23:26:07,215: INFO: common: created directory at: artifacts\training]
+[2023-12-02 23:27:26,597: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-02 23:27:26,597: INFO: main: *******************]
+[2023-12-02 23:27:26,597: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-02 23:27:26,613: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:27:26,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:27:26,616: INFO: common: created directory at: artifacts]
+[2023-12-02 23:27:26,616: INFO: common: created directory at: models]
+[2023-12-02 23:27:48,504: INFO: common: json file saved at: scores.json]
+[2023-12-02 23:27:48,504: INFO: common: json file saved at: scores.json]
+[2023-12-02 23:28:02,464: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-02 23:28:05,542: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmp53mi6pqr\model\data\model\assets]
+[2023-12-02 23:30:24,980: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:41:42,233: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-02 23:41:42,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:41:42,258: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:41:42,258: INFO: common: created directory at: artifacts]
+[2023-12-02 23:41:42,262: INFO: common: created directory at: models]
+[2023-12-02 23:41:42,264: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-02 23:41:42,264: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:43:48,856: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:43:51,413: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:43:51,413: INFO: main: *******************]
+[2023-12-02 23:43:51,413: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-02 23:43:51,425: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:43:51,425: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:43:51,425: INFO: common: created directory at: artifacts]
+[2023-12-02 23:43:51,425: INFO: common: created directory at: models]
+[2023-12-02 23:43:51,441: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-02 23:43:53,508: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:43:55,028: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:43:59,245: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-02 23:43:59,245: INFO: main: *******************]
+[2023-12-02 23:43:59,245: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-02 23:43:59,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:43:59,255: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:43:59,255: INFO: common: created directory at: artifacts]
+[2023-12-02 23:43:59,258: INFO: common: created directory at: models]
+[2023-12-02 23:43:59,290: INFO: common: created directory at: artifacts\training]
+[2023-12-02 23:45:14,567: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-02 23:45:14,567: INFO: main: *******************]
+[2023-12-02 23:45:14,575: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-02 23:45:14,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:45:14,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:45:14,587: INFO: common: created directory at: artifacts]
+[2023-12-02 23:45:14,590: INFO: common: created directory at: models]
+[2023-12-02 23:45:36,397: INFO: common: json file saved at: scores.json]
+[2023-12-02 23:45:36,397: INFO: common: json file saved at: scores.json]
+[2023-12-02 23:45:50,359: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-02 23:45:53,895: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmpjsx2k_bt\model\data\model\assets]
+[2023-12-02 23:48:36,022: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:52:02,676: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-02 23:52:02,910: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:52:02,910: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:52:02,910: INFO: common: created directory at: artifacts]
+[2023-12-02 23:52:02,910: INFO: common: created directory at: models]
+[2023-12-02 23:52:02,910: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-02 23:52:02,910: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:52:45,630: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:52:50,646: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:52:50,646: INFO: main: *******************]
+[2023-12-02 23:52:50,646: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-02 23:52:50,661: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:52:50,661: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:52:50,661: INFO: common: created directory at: artifacts]
+[2023-12-02 23:52:50,661: INFO: common: created directory at: models]
+[2023-12-02 23:52:50,661: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-02 23:52:54,177: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:52:54,598: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:53:00,479: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-02 23:53:00,479: INFO: main: *******************]
+[2023-12-02 23:53:00,479: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-02 23:53:00,495: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:53:00,495: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:53:00,495: INFO: common: created directory at: artifacts]
+[2023-12-02 23:53:00,495: INFO: common: created directory at: models]
+[2023-12-02 23:53:00,495: INFO: common: created directory at: artifacts\training]
+[2023-12-02 23:53:57,304: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-02 23:53:57,304: INFO: main: *******************]
+[2023-12-02 23:53:57,304: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-02 23:53:57,319: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:53:57,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:53:57,319: INFO: common: created directory at: artifacts]
+[2023-12-02 23:53:57,319: INFO: common: created directory at: models]
+[2023-12-02 23:54:14,513: INFO: common: json file saved at: scores.json]
+[2023-12-02 23:54:14,513: INFO: common: json file saved at: scores.json]
+[2023-12-02 23:54:24,885: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-02 23:54:28,166: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmpd0yp24rv\model\data\model\assets]
+[2023-12-02 23:56:50,713: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:58:39,070: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-02 23:58:39,070: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:58:39,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:58:39,086: INFO: common: created directory at: artifacts]
+[2023-12-02 23:58:39,086: INFO: common: created directory at: models]
+[2023-12-02 23:58:39,086: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-02 23:58:39,086: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:59:12,248: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-02 23:59:14,045: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-02 23:59:14,045: INFO: main: *******************]
+[2023-12-02 23:59:14,045: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-02 23:59:14,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:59:14,045: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:59:14,045: INFO: common: created directory at: artifacts]
+[2023-12-02 23:59:14,045: INFO: common: created directory at: models]
+[2023-12-02 23:59:14,045: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-02 23:59:15,446: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:59:15,556: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-02 23:59:18,215: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-02 23:59:18,215: INFO: main: *******************]
+[2023-12-02 23:59:18,215: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-02 23:59:18,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-02 23:59:18,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-02 23:59:18,231: INFO: common: created directory at: artifacts]
+[2023-12-02 23:59:18,231: INFO: common: created directory at: models]
+[2023-12-02 23:59:18,231: INFO: common: created directory at: artifacts\training]
+[2023-12-03 00:01:03,014: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-03 00:01:03,014: INFO: main: *******************]
+[2023-12-03 00:01:03,014: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-03 00:01:03,014: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:01:03,014: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:01:03,014: INFO: common: created directory at: artifacts]
+[2023-12-03 00:01:03,014: INFO: common: created directory at: models]
+[2023-12-03 00:01:20,114: INFO: common: json file saved at: scores.json]
+[2023-12-03 00:01:20,114: INFO: common: json file saved at: scores.json]
+[2023-12-03 00:01:24,832: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-03 00:01:27,098: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmpfoo3uf53\model\data\model\assets]
+[2023-12-03 00:02:28,320: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-03 00:07:30,916: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-03 00:07:30,947: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:07:30,947: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:07:30,947: INFO: common: created directory at: artifacts]
+[2023-12-03 00:07:30,947: INFO: common: created directory at: models]
+[2023-12-03 00:07:30,947: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-03 00:07:30,947: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-03 00:07:59,959: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-03 00:08:01,709: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-03 00:08:01,709: INFO: main: *******************]
+[2023-12-03 00:08:01,709: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-03 00:08:01,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:08:01,709: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:08:01,709: INFO: common: created directory at: artifacts]
+[2023-12-03 00:08:01,709: INFO: common: created directory at: models]
+[2023-12-03 00:08:01,709: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-03 00:08:14,382: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-03 00:08:14,648: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-03 00:08:19,205: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-03 00:08:19,205: INFO: main: *******************]
+[2023-12-03 00:08:19,205: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-03 00:08:19,205: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:08:19,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:08:19,221: INFO: common: created directory at: artifacts]
+[2023-12-03 00:08:19,221: INFO: common: created directory at: models]
+[2023-12-03 00:08:19,768: INFO: common: created directory at: artifacts\training]
+[2023-12-03 00:10:07,231: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-03 00:10:07,231: INFO: main: *******************]
+[2023-12-03 00:10:07,231: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-03 00:10:07,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-03 00:10:07,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-03 00:10:07,231: INFO: common: created directory at: artifacts]
+[2023-12-03 00:10:07,231: INFO: common: created directory at: models]
+[2023-12-03 00:10:25,099: INFO: common: json file saved at: scores.json]
+[2023-12-03 00:10:25,099: INFO: common: json file saved at: scores.json]
+[2023-12-03 00:10:32,126: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-03 00:10:35,142: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmpm6qplohp\model\data\model\assets]
+[2023-12-03 00:12:28,388: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 20:57:24,534: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 20:57:24,721: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 20:57:24,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 20:57:24,877: INFO: common: created directory at: artifacts]
+[2023-12-05 20:57:24,877: INFO: common: created directory at: models]
+[2023-12-05 20:57:24,877: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 20:57:24,877: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 20:57:32,232: ERROR: main: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))]
+Traceback (most recent call last):
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 470, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 514, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 470, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 514, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\database\data_ingestion.py", line 31, in download_file
+    raise e
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\database\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\gdown\download.py", line 161, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 725, in send
+    history = [resp for resp in gen]
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 725, in <listcomp>
+    history = [resp for resp in gen]
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 266, in resolve_redirects
+    resp = self.send(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+[2023-12-05 21:02:31,540: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 21:02:31,571: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:02:31,571: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:02:31,571: INFO: common: created directory at: artifacts]
+[2023-12-05 21:02:31,571: INFO: common: created directory at: models]
+[2023-12-05 21:02:31,571: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 21:02:31,571: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:05:10,050: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:05:13,379: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:05:13,379: INFO: main: *******************]
+[2023-12-05 21:05:13,379: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 21:05:13,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:05:13,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:05:13,379: INFO: common: created directory at: artifacts]
+[2023-12-05 21:05:13,379: INFO: common: created directory at: models]
+[2023-12-05 21:05:13,379: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 21:05:18,247: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:05:18,419: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:05:23,554: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 21:05:23,554: INFO: main: *******************]
+[2023-12-05 21:05:23,554: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 21:05:23,554: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:05:23,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:05:23,554: INFO: common: created directory at: artifacts]
+[2023-12-05 21:05:23,554: INFO: common: created directory at: models]
+[2023-12-05 21:05:23,554: INFO: common: created directory at: artifacts\training]
+[2023-12-05 21:08:11,165: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 21:08:11,165: INFO: main: *******************]
+[2023-12-05 21:08:11,165: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 21:08:11,180: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:08:11,180: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:08:11,180: INFO: common: created directory at: artifacts]
+[2023-12-05 21:08:11,180: INFO: common: created directory at: models]
+[2023-12-05 21:08:28,364: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:08:28,364: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:08:39,281: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 21:08:41,172: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmpjm86kigi\model\data\model\assets]
+[2023-12-05 21:10:50,303: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:20:33,557: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 21:20:33,572: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:20:33,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:20:33,572: INFO: common: created directory at: artifacts]
+[2023-12-05 21:20:33,572: INFO: common: created directory at: models]
+[2023-12-05 21:20:33,572: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 21:20:33,572: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:21:01,786: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:21:03,161: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:21:03,161: INFO: main: *******************]
+[2023-12-05 21:21:03,161: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 21:21:03,161: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:21:03,177: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:21:03,177: INFO: common: created directory at: artifacts]
+[2023-12-05 21:21:03,177: INFO: common: created directory at: models]
+[2023-12-05 21:21:03,177: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 21:21:05,055: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:21:05,665: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:21:09,561: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 21:21:09,561: INFO: main: *******************]
+[2023-12-05 21:21:09,561: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 21:21:09,561: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:21:09,561: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:21:09,561: INFO: common: created directory at: artifacts]
+[2023-12-05 21:21:09,561: INFO: common: created directory at: models]
+[2023-12-05 21:21:09,561: INFO: common: created directory at: artifacts\training]
+[2023-12-05 21:23:48,157: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 21:23:48,157: INFO: main: *******************]
+[2023-12-05 21:23:48,157: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 21:23:48,157: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:23:48,157: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:23:48,157: INFO: common: created directory at: artifacts]
+[2023-12-05 21:23:48,157: INFO: common: created directory at: models]
+[2023-12-05 21:24:05,725: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:24:05,725: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:24:12,247: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 21:24:14,028: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmpald59v07\model\data\model\assets]
+[2023-12-05 21:26:09,139: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:27:33,378: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 21:27:33,378: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:27:33,425: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:27:33,425: INFO: common: created directory at: artifacts]
+[2023-12-05 21:27:33,425: INFO: common: created directory at: models]
+[2023-12-05 21:27:33,425: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 21:27:33,425: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:33:03,361: ERROR: main: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))]
+Traceback (most recent call last):
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 470, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 514, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\connection.py", line 782, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 470, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\urllib3\util\ssl_.py", line 514, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1073, in _create
+    self.do_handshake()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    data_ingestion.main()
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\database\data_ingestion.py", line 31, in download_file
+    raise e
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\database\data_ingestion.py", line 26, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\gdown\download.py", line 161, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 725, in send
+    history = [resp for resp in gen]
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 725, in <listcomp>
+    history = [resp for resp in gen]
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 266, in resolve_redirects
+    resp = self.send(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\requests\adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+[2023-12-05 21:37:11,990: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 21:37:11,990: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:37:11,990: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:37:11,990: INFO: common: created directory at: artifacts]
+[2023-12-05 21:37:12,005: INFO: common: created directory at: models]
+[2023-12-05 21:37:12,005: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 21:37:12,005: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:39:13,810: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:39:17,029: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:39:17,029: INFO: main: *******************]
+[2023-12-05 21:39:17,029: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 21:39:17,029: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:39:17,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:39:17,029: INFO: common: created directory at: artifacts]
+[2023-12-05 21:39:17,029: INFO: common: created directory at: models]
+[2023-12-05 21:39:17,029: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 21:39:18,240: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:39:18,310: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:39:23,098: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 21:39:23,098: INFO: main: *******************]
+[2023-12-05 21:39:23,098: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 21:39:23,098: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:39:23,098: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:39:23,098: INFO: common: created directory at: artifacts]
+[2023-12-05 21:39:23,098: INFO: common: created directory at: models]
+[2023-12-05 21:39:23,148: INFO: common: created directory at: artifacts\training]
+[2023-12-05 21:43:04,765: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 21:43:04,765: INFO: main: *******************]
+[2023-12-05 21:43:04,765: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 21:43:04,765: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:43:04,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:43:04,765: INFO: common: created directory at: artifacts]
+[2023-12-05 21:43:04,765: INFO: common: created directory at: models]
+[2023-12-05 21:43:21,860: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:43:21,860: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:43:26,934: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 21:43:29,029: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmp8yh8ve3s\model\data\model\assets]
+[2023-12-05 21:45:23,809: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:49:52,060: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 21:49:52,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:49:52,060: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:49:52,060: INFO: common: created directory at: artifacts]
+[2023-12-05 21:49:52,060: INFO: common: created directory at: models]
+[2023-12-05 21:49:52,060: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 21:49:52,060: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:50:20,777: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 21:50:26,245: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:50:26,245: INFO: main: *******************]
+[2023-12-05 21:50:26,245: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 21:50:26,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:50:26,245: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:50:26,245: INFO: common: created directory at: artifacts]
+[2023-12-05 21:50:26,245: INFO: common: created directory at: models]
+[2023-12-05 21:50:26,245: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 21:50:29,300: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:50:29,502: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 21:50:35,286: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 21:50:35,287: INFO: main: *******************]
+[2023-12-05 21:50:35,287: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 21:50:35,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:50:35,293: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:50:35,294: INFO: common: created directory at: artifacts]
+[2023-12-05 21:50:35,295: INFO: common: created directory at: models]
+[2023-12-05 21:50:35,296: INFO: common: created directory at: artifacts\training]
+[2023-12-05 21:54:25,267: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 21:54:25,267: INFO: main: *******************]
+[2023-12-05 21:54:25,267: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 21:54:25,267: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:54:25,287: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:54:25,288: INFO: common: created directory at: artifacts]
+[2023-12-05 21:54:25,288: INFO: common: created directory at: models]
+[2023-12-05 21:54:42,787: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:54:42,788: INFO: common: json file saved at: scores.json]
+[2023-12-05 21:54:47,859: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 21:54:49,863: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmp8ax7w00g\model\data\model\assets]
+[2023-12-05 21:56:58,283: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 21:59:04,481: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 21:59:04,481: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 21:59:04,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 21:59:04,498: INFO: common: created directory at: artifacts]
+[2023-12-05 21:59:04,498: INFO: common: created directory at: models]
+[2023-12-05 21:59:04,498: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 21:59:04,498: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 22:00:24,893: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 22:00:27,974: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 22:00:27,974: INFO: main: *******************]
+[2023-12-05 22:00:27,974: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 22:00:27,974: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:00:27,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:00:27,989: INFO: common: created directory at: artifacts]
+[2023-12-05 22:00:27,989: INFO: common: created directory at: models]
+[2023-12-05 22:00:27,989: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 22:00:29,557: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 22:00:29,669: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 22:00:32,931: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 22:00:32,932: INFO: main: *******************]
+[2023-12-05 22:00:32,932: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 22:00:32,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:00:32,936: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:00:32,937: INFO: common: created directory at: artifacts]
+[2023-12-05 22:00:32,937: INFO: common: created directory at: models]
+[2023-12-05 22:00:32,938: INFO: common: created directory at: artifacts\training]
+[2023-12-05 22:05:32,617: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 22:05:32,617: INFO: main: *******************]
+[2023-12-05 22:05:32,618: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 22:05:32,836: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:05:32,838: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:05:32,838: INFO: common: created directory at: artifacts]
+[2023-12-05 22:05:32,839: INFO: common: created directory at: models]
+[2023-12-05 22:05:51,877: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:05:51,877: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:05:57,971: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 22:06:02,068: INFO: builder_impl: Assets written to: C:\Users\kathe\AppData\Local\Temp\tmp_yxrqi2c\model\data\model\assets]
+[2023-12-05 22:07:50,687: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 22:30:34,241: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 22:30:34,252: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:30:34,261: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:30:34,261: INFO: common: created directory at: artifacts]
+[2023-12-05 22:30:34,261: INFO: common: created directory at: models]
+[2023-12-05 22:30:34,261: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 22:30:34,268: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 22:31:06,592: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 22:31:09,463: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 22:34:07,542: INFO: stage_02_prepare_base_model: *******************]
+[2023-12-05 22:34:07,542: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 22:34:07,572: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:34:07,575: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:34:07,575: INFO: common: created directory at: artifacts]
+[2023-12-05 22:34:07,575: INFO: common: created directory at: models]
+[2023-12-05 22:34:07,575: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 22:34:11,373: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 22:34:11,675: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 22:34:15,738: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 22:34:59,364: INFO: stage_03_model_training: *******************]
+[2023-12-05 22:34:59,364: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2023-12-05 22:34:59,379: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:34:59,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:34:59,379: INFO: common: created directory at: artifacts]
+[2023-12-05 22:34:59,379: INFO: common: created directory at: models]
+[2023-12-05 22:34:59,379: INFO: common: created directory at: artifacts\training]
+[2023-12-05 22:41:10,191: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 22:43:08,990: INFO: stage_04_model_evaluation: *******************]
+[2023-12-05 22:43:08,990: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 22:43:09,015: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:43:09,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:43:09,061: INFO: common: created directory at: artifacts]
+[2023-12-05 22:43:09,061: INFO: common: created directory at: models]
+[2023-12-05 22:43:42,709: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:43:42,709: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:43:42,709: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 22:54:22,093: INFO: stage_03_model_training: *******************]
+[2023-12-05 22:54:22,093: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2023-12-05 22:54:22,107: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:54:22,107: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:54:22,107: INFO: common: created directory at: artifacts]
+[2023-12-05 22:54:22,107: INFO: common: created directory at: models]
+[2023-12-05 22:54:22,117: INFO: common: created directory at: artifacts\training]
+[2023-12-05 22:55:31,599: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 22:56:02,299: INFO: stage_04_model_evaluation: *******************]
+[2023-12-05 22:56:02,301: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 22:56:02,302: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 22:56:02,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 22:56:02,308: INFO: common: created directory at: artifacts]
+[2023-12-05 22:56:02,308: INFO: common: created directory at: models]
+[2023-12-05 22:56:32,413: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:56:32,416: INFO: common: json file saved at: scores.json]
+[2023-12-05 22:56:32,416: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
