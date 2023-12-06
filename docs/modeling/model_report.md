@@ -20,11 +20,21 @@ En esta sección se presentará una evaluación detallada del modelo final. Se d
 
 Por el momento puede evaluar las tecnicas de evaluación en el archivo src/cnnClassifier/evaluation/model_evaluation_mlflow.py
 
-Por el momento aun se encuentra trabajando en las conclusiones ya que se deben realizar mas experimentos.
+En la siguiente imagen se puede observar que se ejecutaron 11 versiones del modelo con ayuda de MLFLow:
+
+![evaluationmodel](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/mlflow_evaluation.png)
+
+Se aprovecho la capacidad de transferencia de aprendizaje de VGG16, e iterando el parametro de cantidad de épocas con un valor de 5 se logro obtener un accuracy del 95% lo cual es un gran desempeño, con se envio a producción la v11 del modelo:
+![bestmodel](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/best_model.png)
 
 ## Conclusiones y Recomendaciones
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+- Se aprovecho la capacidad de transferencia de aprendizaje de VGG16, e iterando el parametro de cantidad de épocas con un valor de 5 se logro obtener un accuracy del 95% lo cual es un gran desempeño.
+- Se podria experimentar con diferentes valores para hiperparámetros clave como la tasa de aprendizaje, el tamaño del lote y la cantidad de épocas. Ajustar estos parámetros puede tener un impacto significativo en el rendimiento del modelo.
+- Seria interesante visualizar las activaciones de las capas intermedias del modelo para comprender qué características están aprendiendo las diferentes capas. Esto puede ayudar a depurar y entender el comportamiento del modelo.
+- Se podria considera el uso de técnicas de regularización como la disminución de la tasa de aprendizaje o el dropout para evitar el sobreajuste.
+- Se opto por implementar técnicas de aumento de datos para generar variedad en el conjunto de entrenamiento. Esto puede ayudar a mejorar la generalización del modelo y reducir el riesgo de sobreajuste.
+- Se recomienda experimentar con otras arquitecturas de modelos (por ejemplo, modelos más recientes como ResNet, Inception, o EfficientNet) para comparar el rendimiento y ver si alguna de ellas se adapta mejor.
 
 ## Referencias
 

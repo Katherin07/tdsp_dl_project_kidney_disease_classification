@@ -87,3 +87,25 @@ export MLFLOW_TRACKING_USERNAME=Katherin07
 export MLFLOW_TRACKING_PASSWORD=0bc7932c59f69bd8822c408a763da2f45998890c
 
 ```
+
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
+
+
+## Sobre MLflow & DVC
+
+MLflow
+
+ - Es de grado de producción.
+ - Registra todos tus experimentos.
+ - Realiza registro y etiquetado de tu modelo.
+
+
+DVC 
+
+ - Es muy ligero, ideal solo para pruebas de concepto (POC).
+ - Un rastreador ligero de experimentos.
+ - Puede realizar orquestación (creación de pipelines).

@@ -14,6 +14,12 @@ Segun la fuente la imagenes ya fueron evaluadas por expertos y seleccionadas con
 
 La variable objetivo principal de este problema de clasificación sera entonces la clase de si tiene o no tumor (YES/NO), una variable categorica.
 
+Imagen con clasificación "normal" sin tumor:
+![normal](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/normal.jpg)
+
+Imagen con clasificación "tumor" con tumor:
+![tumor](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/tumor.jpg)
+
 ## Resumen de calidad de los datos
 
 En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
