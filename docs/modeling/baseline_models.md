@@ -10,6 +10,10 @@ Para resolver este problema de vision por computador se utilizara la arquitectur
 
 Adicional se debe tener en cuenta que el tamaño de entrada predeterminado para este modelo es 224x224. Cada aplicación Keras espera un tipo específico de preprocesamiento de entrada.
 
+A continuación imagen de arquitectura del modelo VGG16:
+
+![arqmodelo2](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/vgg.png)
+
 ## Variables de entrada
 
 Lista de las variables de entrada utilizadas en el modelo:

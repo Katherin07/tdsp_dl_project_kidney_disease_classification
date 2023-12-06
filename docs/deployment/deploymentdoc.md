@@ -83,7 +83,9 @@
 
     ECR_REPOSITORY_NAME =
 
-- **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
+- **Diagrama de arquitectura:** A continuación imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo:
+
+![arq](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/infra_dl.PNG)
 
 ## Código de despliegue
 
@@ -107,6 +109,8 @@ export MLFLOW_TRACKING_PASSWORD=0bc7932c59f69bd8822c408a763da2f45998890c
 ## Documentación del despliegue
 
 Esta documentación se incluira en la proxima entrega, ya que por ahora se ha desplegado localmente mediante Flask con el archivo app.py, a continuación una imagen de la vista de la aplicación para predicción de tumor en riñones de pacientes basandose en una resonancia magnetica:
+
+![app](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/app_localhost.png)
 
 
 - **Instrucciones de instalación:** (instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
