@@ -109,3 +109,77 @@ DVC
  - Es muy ligero, ideal solo para pruebas de concepto (POC).
  - Un rastreador ligero de experimentos.
  - Puede realizar orquestación (creación de pipelines).
+
+
+ # AWS-CICD-Deployment-con-Github-Actions
+
+## 1. Ingresar a la consola AWS.
+
+## 2. Crear un usuario IAM para el deployment
+
+	#con el acceso especifico
+
+	1. EC2 acceso : Es una maquina virtual
+
+	2. ECR: Elastic Container registry, para guardar la imagen de docker en  aws
+
+
+	#Descripcion: A cerca del deployment (main.yaml)
+
+	1. Construir la imagen de docker con el codigo src
+
+	2. Subir (Push) la imagen de docker hacia ECR
+
+	3. Lanzar la maquina virtual EC2 
+
+	4. Jalar (Pull) la imagen de docker desde ECR hacia la maquina virtual EC2
+
+	5. Ejecutar/lanzar la imagen de docker en la maquina virtual EC2
+
+	#Policys requeridas para el usuario IAM:
+
+	1. AmazonEC2ContainerRegistryFullAccess
+
+	2. AmazonEC2FullAccess
+
+	
+## 3. Crear un repo de ECR para almacenar/guardar la imagen de docker
+    - Guardar la URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+
+	
+## 4. Crear la maquina virtual EC2 (Ubuntu) 
+
+## 5. Abrir la maquina virtual EC2 e instalar la imagen de docker en la maquina virtual EC2:
+	
+	
+	#opcional
+
+	sudo apt-get update -y
+
+	sudo apt-get upgrade
+	
+	#requerido
+
+	curl -fsSL https://get.docker.com -o get-docker.sh
+
+	sudo sh get-docker.sh
+
+	sudo usermod -aG docker ubuntu
+
+	newgrp docker
+	
+# 6. Configurar EC2 como self-hosted runner:
+    setting>actions>runner>new self hosted runner> choose os> despues correr el comando uno por uno
+
+
+# 7. Configurar los github secrets:
+
+    AWS_ACCESS_KEY_ID=
+
+    AWS_SECRET_ACCESS_KEY=
+
+    AWS_REGION = us-east-1
+
+    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+
+    ECR_REPOSITORY_NAME = simple-app

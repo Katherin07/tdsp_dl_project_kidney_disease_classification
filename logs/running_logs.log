@@ -842,3 +842,106 @@ x==========x]
 [2023-12-05 22:56:32,416: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-05 23:47:13,865: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.8:8080]
+[2023-12-05 23:47:13,880: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-05 23:53:43,075: INFO: _internal: 127.0.0.1 - - [05/Dec/2023 23:53:43] "GET / HTTP/1.1" 200 -]
+[2023-12-05 23:56:40,433: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-05 23:56:40,609: INFO: _internal: 127.0.0.1 - - [05/Dec/2023 23:56:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-06 01:06:31,119: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:06:31] "GET / HTTP/1.1" 200 -]
+[2023-12-06 01:06:41,960: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\kathe\tdsp_dl_project_kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\kathe\miniconda3\envs\kidney2\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2023-12-06 01:06:41,960: INFO: _internal: 127.0.0.1 - - [06/Dec/2023 01:06:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-12-06 01:32:21,820: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-06 01:32:21,840: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:32:21,857: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:32:21,906: INFO: common: created directory at: artifacts]
+[2023-12-06 01:32:21,906: INFO: common: created directory at: model]
+[2023-12-06 01:32:21,907: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-06 01:32:21,907: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-06 01:32:54,263: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-06 01:32:56,122: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-06 01:32:56,122: INFO: main: *******************]
+[2023-12-06 01:32:56,122: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-06 01:32:56,122: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:32:56,122: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:32:56,122: INFO: common: created directory at: artifacts]
+[2023-12-06 01:32:56,122: INFO: common: created directory at: model]
+[2023-12-06 01:32:56,122: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-06 01:33:00,533: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-06 01:33:01,174: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-06 01:33:04,719: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-06 01:33:04,719: INFO: main: *******************]
+[2023-12-06 01:33:04,719: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-06 01:33:04,719: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:33:04,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:33:04,719: INFO: common: created directory at: artifacts]
+[2023-12-06 01:33:04,719: INFO: common: created directory at: model]
+[2023-12-06 01:33:04,719: INFO: common: created directory at: artifacts\training]
+[2023-12-06 01:37:34,981: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-06 01:37:34,981: INFO: main: *******************]
+[2023-12-06 01:37:34,981: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-06 01:37:34,981: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-06 01:37:35,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-06 01:37:35,106: INFO: common: created directory at: artifacts]
+[2023-12-06 01:37:35,106: INFO: common: created directory at: model]
+[2023-12-06 01:37:53,099: INFO: common: json file saved at: scores.json]
+[2023-12-06 01:37:53,099: INFO: common: json file saved at: scores.json]
+[2023-12-06 01:37:53,099: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
