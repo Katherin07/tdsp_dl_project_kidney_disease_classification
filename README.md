@@ -180,6 +180,6 @@ DVC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = 830939889036.dkr.ecr.us-east-1.amazonaws.com/kidney
+    AWS_ECR_LOGIN_URI = 830939889036.dkr.ecr.us-east-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = kidney
