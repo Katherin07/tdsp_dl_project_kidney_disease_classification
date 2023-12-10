@@ -43,6 +43,8 @@ En la siguiente imagen se puede observar que se ejecutaron 11 versiones del mode
 
 ![evaluationmodel](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/mlflow_evaluation.png)
 
+![compare](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/mlflow_compare.png)
+
 ## Análisis de los resultados
 
 Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo:

@@ -6,45 +6,73 @@
 - **Plataforma de despliegue:** AWS
 - **Requisitos técnicos:** Lista de requisitos técnicos necesarios para el despliegue
 
+1. Cuenta root de acceso a consola AWS.
+2. Creación de usuario IAM, repo en ECR e instancia en EC2 para el despliegue.
+3. Repositorio Github y configuración de Github actions.
+4. Archivos con codigo de despliegue.
+
+- **Requisitos de seguridad:** Lista de requisitos de seguridad necesarios para el despliegue
+
+1.Secrets de AWS configurarlos en Github secrets.
+
+- **Diagrama de arquitectura:** A continuación imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo:
+
+![arq](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/arq.png)
+
+## Código de despliegue
+
+- **Archivo principal:** Nombre del archivo principal que contiene el código de despliegue (main.yaml)
+- **Rutas de acceso a los archivos:** Lista de rutas de acceso a los archivos necesarios para el despliegue:
+- .github/workflows/main.yaml
+- Dockerfile
+- **Variables de entorno:** Lista de variables de entorno necesarias para el despliegue: Ver archivos de despliegue
+
+
+## Documentación del despliegue
+
+La aplicación construida con Flask para la predicción de tumor de riñon en imagenes de resonancia magnetica se desplegara en la plataforma de AWS por medio de un flujo de CI CD con ayuda de Github actions, a continuación las instrucciones del despliegue.
+
+- **Instrucciones de instalación y configuración:** Instrucciones detalladas para instalar y configurar la aplicación del modelo en la plataforma aws:
+
 # AWS-CICD-Deployment-con-Github-Actions
 
-## 1. Ingresar a consola AWS.
+## 1. Ingresar a la consola AWS.
 
-## 2. Crear usuario IAM para el deployment
+## 2. Crear un usuario IAM para el deployment
 
 	#con el acceso especifico
 
 	1. EC2 acceso : Es una maquina virtual
 
-	2. ECR: Elastic Container registry para guardar una imagen de docker en aws
+	2. ECR: Elastic Container registry, para guardar la imagen de docker en  aws
 
 
-	#Descripción: A cerca del deployment
+	#Descripcion: A cerca del deployment (main.yaml)
 
-	1. Construir imagen de docker del codigo fuente
+	1. Construir la imagen de docker con el codigo src
 
-	2. Publicar la imagen de docker en ECR
+	2. Subir (Push) la imagen de docker hacia ECR
 
-	3. Ingresar a EC2 
+	3. Lanzar la maquina virtual EC2 
 
-	4. Extraer imagen desde ECR hacia EC2
+	4. Jalar (Pull) la imagen de docker desde ECR hacia la maquina virtual EC2
 
-	5. Lanzar imagen de docker en EC2
+	5. Ejecutar/lanzar la imagen de docker en la maquina virtual EC2
 
-	#Politica:
+	#Policys requeridas para el usuario IAM:
 
 	1. AmazonEC2ContainerRegistryFullAccess
 
 	2. AmazonEC2FullAccess
 
 	
-## 3. Crear ECR repo para almacenar/guardar la docker image
-    - Guardar la URI.
+## 3. Crear un repo de ECR para almacenar/guardar la imagen de docker
+    - Guardar la URI: 830939889036.dkr.ecr.us-east-1.amazonaws.com/kidney
 
 	
-## 4. Crear maquina virtual EC2 (Ubuntu) 
+## 4. Crear la maquina virtual EC2 (Ubuntu) 
 
-## 5. Abrir EC2 e instalar docker en maquina EC2:
+## 5. Abrir la maquina virtual EC2 e instalar la imagen de docker en la maquina virtual EC2:
 	
 	
 	#opcional
@@ -53,7 +81,7 @@
 
 	sudo apt-get upgrade
 	
-	#requirido
+	#requerido
 
 	curl -fsSL https://get.docker.com -o get-docker.sh
 
@@ -64,14 +92,10 @@
 	newgrp docker
 	
 # 6. Configurar EC2 como self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> despues correr comandos uno por uno
+    setting>actions>runner>new self hosted runner> choose os> despues correr el comando uno por uno
 
 
- 
-
-- **Requisitos de seguridad:** Lista de requisitos de seguridad necesarios para el despliegue
-
-# 7. Configurar github secrets:
+# 7. Configurar los github secrets:
 
     AWS_ACCESS_KEY_ID=
 
@@ -79,41 +103,14 @@
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = 
+    AWS_ECR_LOGIN_URI = 830939889036.dkr.ecr.us-east-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME =
-
-- **Diagrama de arquitectura:** A continuación imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo:
-
-![arq](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/infra_dl.PNG)
-
-## Código de despliegue
-
-- **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
-AWS-CICD-Deployment-con-Github-Actions
-- **Rutas de acceso a los archivos:** (lista de rutas de acceso a los archivos necesarios para el despliegue)
-- **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
-
-Ejecutar los siguientes comandos para exportar los datos de configuración como variables de entorno:
-
-```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/Katherin07/tdsp_dl_project_kidney_disease_classification.mlflow
-
-export MLFLOW_TRACKING_USERNAME=Katherin07 
-
-export MLFLOW_TRACKING_PASSWORD=0bc7932c59f69bd8822c408a763da2f45998890c
-
-```
-
-## Documentación del despliegue
-
-Esta documentación se incluira en la proxima entrega, ya que por ahora se ha desplegado localmente mediante Flask con el archivo app.py, a continuación una imagen de la vista de la aplicación para predicción de tumor en riñones de pacientes basandose en una resonancia magnetica:
-
-![app](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/app_localhost.png)
+    ECR_REPOSITORY_NAME = kidney
 
 
-- **Instrucciones de instalación:** (instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
-- **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
-- **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
-- **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)
+- **Instrucciones de uso:** Instrucciones detalladas para utilizar el modelo en la plataforma aws
+Para poder ingresar a la aplicación ya desplegada en la instancia de EC2 de AWS, ingresar a la url http://52.4.93.250:8080/
+
+- **Instrucciones de mantenimiento:** Instrucciones detalladas para mantener el modelo en la plataforma de despliegue
+
+Para el mantenimiento del modelo en la aplicación es necesario estar en constante monitoreo de sus metricas de desempeño, mantenimiento de la aplicación, de las configuraciones del servicio web y las dependencias requeridas.

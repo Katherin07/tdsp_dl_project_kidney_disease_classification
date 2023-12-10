@@ -23,7 +23,7 @@ Tener un conjunto de datos de entrenamiento adecuado para lograr buen desempeño
 
 ## Metodología
 
-Para la ejecución de este proyecto se utilizara la metodología CRISP-DM (Cross-Insdustry Standard Process for Data Mining) desde la etapa de entendimiento del negocio hasta la etapa de despliegue pasando por cada etapa. Adicional se complementara la la metodología TDSP (Team Data Science Project) para tener una comprensión del uso de la misma en las empresas.
+Para la ejecución de este proyecto se utilizara la metodología CRISP-DM (Cross-Insdustry Standard Process for Data Mining) desde la etapa de entendimiento del negocio hasta la etapa de despliegue pasando por cada etapa. Adicional se complementara la metodología TDSP (Team Data Science Project) para tener una comprensión del uso de la misma en las empresas.
 
 ## Cronograma
 

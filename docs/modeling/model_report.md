@@ -28,7 +28,10 @@ En la siguiente imagen se puede observar que se ejecutaron 11 versiones del mode
 
 ![evaluationmodel](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/mlflow_evaluation.png)
 
-Se aprovecho la capacidad de transferencia de aprendizaje de VGG16, e iterando el parametro de cantidad de épocas con un valor de 5 se logro obtener un accuracy del 95% lo cual es un gran desempeño, con se envio a producción la v11 del modelo:
+![compare](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/mlflow_compare.png)
+
+Se aprovecho la capacidad de transferencia de aprendizaje de VGG16, e iterando el parametro de cantidad de épocas con un valor de 5 se logro obtener un accuracy del 95% lo cual es un gran desempeño, este modelo se envio a producción con la versión 11:
+
 ![bestmodel](https://github.com/Katherin07/tdsp_dl_project_kidney_disease_classification/blob/master/images/best_model.png)
 
 ## Conclusiones y Recomendaciones

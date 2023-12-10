@@ -10,8 +10,7 @@ Los datos resultantes de la seleccion se guardaron en un archivo comprimido "kid
 
 ## Especificación de los scripts para la carga de datos
 
-- Scripts utilizados para la carga de los datos en la ruta (scripts/data_acquisition/main.py)
-Nota: Se espera crear un paquete que se configurara en src ya que este proyecto se esta basando el siguiente proyecto "https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project".
+- Scripts utilizados para la carga de los datos (Ruta: scripts/data_acquisition/main.py)
 
 ## Referencias a rutas o bases de datos origen y destino
 
@@ -21,11 +20,3 @@ Nota: Se espera crear un paquete que se configurara en src ya que este proyecto 
 
 - Ubicación de los archivos de origen de los datos: source_URL: https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing
 - Estructura de los archivos de origen de los datos: Inicialmente archivo comprimido "kidney_tumor_dataset.zip", una vez descomprimido folders nombrados Normal y Tumor con las imeganes.
-
-### Base de datos de destino
-
-No aplica.
-
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
