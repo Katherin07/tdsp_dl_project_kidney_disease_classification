@@ -85,75 +85,65 @@ Logros alcanzados en la etapa:
 
 - Identificación de los principales desafíos y obstáculos encontrados durante el proyecto:
 
-- Se identifico como un desafio la capacidad de recursos de computo, debido a esto se opto por reducir el tamaño del dataset a aproximadamente 400 imagenes.
-- Lograr estructurar un paquete src para gestionar la interacción entre los modulos y finalmente tener una orquestación de pipelines para lograr la ejecución de cada una de las etapas de ingestión del dataset, preprocesamiento, entrenamiento, modelamiento, evaluación del modelo y despliegue.
-- Implementar github actions y configurar los servicios requeridos en AWS para el despliegue.
+-Se identifico como un desafio la capacidad de recursos de computo, debido a esto se opto por reducir el tamaño del dataset a aproximadamente 400 imagenes.
+-Lograr estructurar un paquete src para gestionar la interacción entre los modulos y finalmente tener una orquestación de pipelines para lograr la ejecución de cada una de las etapas de ingestión del dataset, preprocesamiento, entrenamiento, modelamiento, evaluación del modelo y despliegue.
+-Implementar github actions y configurar los servicios requeridos en AWS para el despliegue.
 
 
 - Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo:
 
 -Para lograr una mejor clasificación se puede optar por incrementar el tamaño del dataset e incluir mas modelos de cnn a evaluar.
-- Se aprovecho la capacidad de transferencia de aprendizaje de VGG16, e iterando el parametro de cantidad de épocas con un valor de 5 se logro obtener un accuracy del 95% lo cual es un gran desempeño.
-- Se podria experimentar con diferentes valores para hiperparámetros clave como la tasa de aprendizaje, el tamaño del lote y la cantidad de épocas. Ajustar estos parámetros puede tener un impacto significativo en el rendimiento del modelo.
-- Se podria considera el uso de técnicas de regularización como la disminución de la tasa de aprendizaje o el dropout para evitar el sobreajuste.
-- Se opto por implementar técnicas de aumento de datos para generar variedad en el conjunto de entrenamiento. Esto puede ayudar a mejorar la generalización del modelo y reducir el riesgo de sobreajuste.
+-Se aprovecho la capacidad de transferencia de aprendizaje de VGG16, e iterando el parametro de cantidad de épocas con un valor de 5 se logro obtener un accuracy del 95% lo cual es un gran desempeño.
+-Se podria experimentar con diferentes valores para hiperparámetros clave como la tasa de aprendizaje, el tamaño del lote y la cantidad de épocas. Ajustar estos parámetros puede tener un impacto significativo en el rendimiento del modelo.
+-Se podria considera el uso de técnicas de regularización como la disminución de la tasa de aprendizaje o el dropout para evitar el sobreajuste.
+-Se opto por implementar técnicas de aumento de datos para generar variedad en el conjunto de entrenamiento. Esto puede ayudar a mejorar la generalización del modelo y reducir el riesgo de sobreajuste.
 
 
-- Recomendaciones para futuros proyectos de machine learning.
-- Seria interesante visualizar las activaciones de las capas intermedias del modelo para comprender qué características están aprendiendo las diferentes capas. Esto puede ayudar a depurar y entender el comportamiento del modelo.
-- Se recomienda experimentar con otras arquitecturas de modelos (por ejemplo, modelos más recientes como ResNet, Inception, o EfficientNet) para comparar el rendimiento y ver si alguna de ellas se adapta mejor.
+- Recomendaciones para futuros proyectos de machine learning:
+
+-Seria interesante visualizar las activaciones de las capas intermedias del modelo para comprender qué características están aprendiendo las diferentes capas. Esto puede ayudar a depurar y entender el comportamiento del modelo.
+-Se recomienda experimentar con otras arquitecturas de modelos (por ejemplo, modelos más recientes como ResNet, Inception, o EfficientNet) para comparar el rendimiento y ver si alguna de ellas se adapta mejor.
 -Seria interesante validar otras plataformas o herramientas para implementar despliegues y mejorar el MLOps.
 
 ## Impacto del proyecto
 
-- Descripción del impacto del modelo en el negocio o en la industria.
+- Descripción del impacto del modelo en el negocio o en la industria:
 
 Esta aplicación podria ayudar a tener un impacto significativo en el sector de la salud y la medicina de las siguientes maneras:
 
-Mejora en el Diagnóstico Temprano:
-
+-Mejora en el Diagnóstico Temprano:
 El modelo proporciona la capacidad de detectar la presencia de tumores renales en una etapa temprana, lo que permite a los profesionales de la salud intervenir rápidamente para iniciar tratamientos y mejorar las tasas de éxito en la recuperación.
 
-Reducción de Errores Humanos:
-
+-Reducción de Errores Humanos:
 Al utilizar inteligencia artificial para la clasificación de imágenes, se reduce la probabilidad de errores humanos en la interpretación de imágenes médicas. Esto contribuye a una mayor precisión en el diagnóstico.
 
-Optimización de Recursos Médicos:
-
+-Optimización de Recursos Médicos:
 La detección automática de tumores renales puede optimizar la asignación de recursos médicos al priorizar casos de mayor urgencia. Esto puede conducir a una gestión más eficiente de la carga de trabajo y tiempos de respuesta más rápidos para los pacientes.
 
-Impacto en la Planificación del Tratamiento:
-
+-Impacto en la Planificación del Tratamiento:
 La información proporcionada por el modelo puede influir en la planificación del tratamiento al proporcionar a los médicos datos más precisos sobre la naturaleza y la ubicación de los tumores renales. Esto permite desarrollar estrategias de tratamiento más personalizadas.
 
-Reducción de Costos de Atención Médica:
-
+-Reducción de Costos de Atención Médica:
 La detección temprana y la intervención rápida pueden reducir los costos asociados con tratamientos más prolongados y complejos. Además, la disminución de la necesidad de pruebas y procedimientos repetitivos puede contribuir a la eficiencia y la reducción de costos.
 
-- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
+- Identificación de las áreas de mejora y oportunidades de desarrollo futuras:
 
-Mejora en la Diversidad de Datos:
-
+-Mejora en la Diversidad de Datos:
 Para garantizar la robustez del modelo, se puede trabajar en mejorar la diversidad del conjunto de datos. Asegurarse de que el modelo haya sido entrenado en imágenes que representen diversas características demográficas y clínicas de la población mejorará su generalización.
 
-Integración con Sistemas de Historia Clínica Electrónica (HCE):
-
+-Integración con Sistemas de Historia Clínica Electrónica (HCE):
 Integrar el modelo con sistemas de Historia Clínica Electrónica permitiría una colaboración más estrecha con otros datos clínicos del paciente. Esto podría proporcionar un contexto más completo y ayudar en la toma de decisiones médicas.
 
-Desarrollo de Herramientas de Interpretación:
-
+-Desarrollo de Herramientas de Interpretación:
 Crear herramientas de interpretación que expliquen las predicciones del modelo de manera comprensible para los profesionales de la salud podría aumentar la confianza en la adopción del modelo. La transparencia y la interpretabilidad son cruciales en entornos clínicos.
 
-Enfoque en la Privacidad y la Ética:
-
+-Enfoque en la Privacidad y la Ética:
 Continuar desarrollando prácticas y protocolos que garanticen la privacidad del paciente y cumplan con las normativas éticas y legales en el ámbito de la salud. Esto es especialmente relevante al tratar con datos médicos sensibles.
 
-Validación Clínica y Colaboración con Profesionales de la Salud:
-
+-Validación Clínica y Colaboración con Profesionales de la Salud:
 Realizar validaciones clínicas adicionales y colaborar estrechamente con profesionales de la salud para recopilar retroalimentación sobre la eficacia del modelo en situaciones del mundo real. Esta colaboración puede llevar a mejoras continuas y adaptaciones del modelo.
 
-Desarrollo de Capacidades de Predicción a Largo Plazo:
-
+-Desarrollo de Capacidades de Predicción a Largo Plazo:
 Explorar oportunidades para el desarrollo de capacidades predictivas a largo plazo, como la identificación de pacientes en riesgo de desarrollar tumores renales en el futuro. Esto podría contribuir a estrategias preventivas más efectivas.
 
 ## Conclusiones
